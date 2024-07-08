@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form">
+            <label>Sehir Ismi Giriniz</label><br>
+            <input type="text" id="city">
+            <button id="btn" onclick="getWeather()">Gonder</button>
+        </div>
+        <div class="weather">
+            <img class='image'>
+            <div class=" weather-info">
+                <h2 id="cityName">Erzurum</h2>
+                <p>Durum : <span id="durum"></span></p>
+                <p>Sicaklik : <span id="sicaklik-info"></span></p>
+                <p>Ruzgar : <span id="ruzgar-info"></span> km/s</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
